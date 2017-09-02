@@ -1,0 +1,21 @@
+{
+    "name": "diangong/yii2-base",
+    "description": "",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","base"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "diangong.org",
+            "email": "6346822@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "diangong\\base\\": "src/"
+        }
+    }
+}
